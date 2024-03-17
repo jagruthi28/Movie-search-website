@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+  color: white;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+  padding: 10px;
+}
+.topnav a {
+  display: block;
+  float: left;
+  padding: 14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.topnav .search_container {
+  float: right;
+}
+form {
+  background-color: #151f30;
+  height: 43px;
+  width: 300px;
+  display: flex;
+  border-radius: 11px;
+  align-items: center;
+}
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #fff;
+  padding: 6px 9px;
+  height: 100%;
+  width: 100%;
+}
+.thumbnail {
+  height: 250px;
+  width: 200px;
+  border-radius: 19px;
+}
+.column {
+  padding: 10px 10px;
+  float: left;
+  width: 25%;
+}
+.card {
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #151f30;
+}
